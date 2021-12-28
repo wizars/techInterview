@@ -1,0 +1,68 @@
+#main {
+  width: 80%;
+  margin: auto;
+}
+
+/* User Info block */
+#user_info {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 5px solid royalblue;
+}
+
+#user_block {
+  display: flex;
+  align-items: center;
+  margin: 0 15px;
+}
+#userName {
+  margin: 0 10px;
+}
+
+/* Product List */
+.subheader {
+  margin: 50px auto 20px auto;
+  font-size: 35px;
+  width: 80%;
+  text-align: center;
+}
+
+#portfolio {
+  width: 80%;
+  min-height: 200px;
+  margin: 0px auto;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+}
+.productBlock {
+  font-size: 25px;
+  background-color: rgba(65, 105, 225, 0.479);
+  border: 1px solid black;
+  padding: 15px;
+  box-shadow: 0 0px 2px rgb(23 23 25 / 20%), 0 0px 4px rgb(23 23 25 / 21%),
+    0 0px 8px rgb(23 23 25 / 20%);
+  min-width: 200px;
+
+}
+.productName {
+  text-align: center;
+  font-size: 30px;
+  font-style: italic;
+  font-weight: bold;
+}
+.bt{
+    color:rgb(65, 64, 64);
+    display: inline;
+
+}
+ul {
+  margin: 5px auto 0 0;
+}
+.listHeader {
+  margin: 0px;
+}
