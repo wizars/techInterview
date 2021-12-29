@@ -90,7 +90,7 @@ function createProductList() {
 
     // Filter the list
     if (filter.value !== "") {
-        filteredList = portfolio_response.filter(prod => prod.productName.toLowerCase() == filter.value.toLowerCase())
+        filteredList = portfolio_response.filter(prod => prod.productName.toLowerCase().startsWith( filter.value.toLowerCase()))
     }
     else {
         filteredList = portfolio_response;
